@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MYW-TL-nbB">
+                                <rect key="frame" x="68" y="152" width="52" height="30"/>
+                                <state key="normal" title="Button1"/>
+                                <connections>
+                                    <action selector="clickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gjl-op-z1E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5eu-NL-VK9">
+                                <rect key="frame" x="254" y="152" width="55" height="30"/>
+                                <state key="normal" title="Button2"/>
+                                <connections>
+                                    <action selector="clickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nyv-Tl-Nvb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="13" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HCt-F1-lUr">
+                                <rect key="frame" x="68" y="255" width="55" height="30"/>
+                                <state key="normal" title="Button3"/>
+                                <connections>
+                                    <action selector="clickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vjo-yE-SyQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wFL-0S-4rl">
+                                <rect key="frame" x="254" y="255" width="56" height="30"/>
+                                <state key="normal" title="Button4"/>
+                                <connections>
+                                    <action selector="clickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m30-oS-1mK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5eu-NL-VK9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="1.5" id="KvP-nK-1ud"/>
+                            <constraint firstItem="wFL-0S-4rl" firstAttribute="centerY" secondItem="HCt-F1-lUr" secondAttribute="centerY" id="SKi-5L-PBK"/>
+                            <constraint firstItem="HCt-F1-lUr" firstAttribute="centerX" secondItem="MYW-TL-nbB" secondAttribute="centerX" id="aBB-dP-0vc"/>
+                            <constraint firstItem="MYW-TL-nbB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.5" id="dxk-jq-hJG"/>
+                            <constraint firstItem="5eu-NL-VK9" firstAttribute="top" secondItem="MYW-TL-nbB" secondAttribute="top" id="e4S-Ab-axm"/>
+                            <constraint firstItem="wFL-0S-4rl" firstAttribute="centerX" secondItem="5eu-NL-VK9" secondAttribute="centerX" id="mR4-AX-2Jd"/>
+                            <constraint firstItem="HCt-F1-lUr" firstAttribute="top" secondItem="MYW-TL-nbB" secondAttribute="bottom" constant="73" id="pbL-NT-tUn"/>
+                            <constraint firstItem="MYW-TL-nbB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="0.5" id="wUM-pa-ldA"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116" y="123.68815592203899"/>
+        </scene>
+    </scenes>
+</document>
