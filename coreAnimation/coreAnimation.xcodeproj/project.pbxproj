@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B200A5E1E891FEC00C76F25 /* door.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B200A5D1E891FEC00C76F25 /* door.jpg */; };
 		7B45B9DD1E7A727200B78C1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B45B9DC1E7A727200B78C1C /* main.m */; };
 		7B45B9E61E7A727200B78C1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B45B9E41E7A727200B78C1C /* Main.storyboard */; };
 		7B45B9E81E7A727200B78C1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B45B9E71E7A727200B78C1C /* Assets.xcassets */; };
 		7B45B9EB1E7A727200B78C1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B45B9E91E7A727200B78C1C /* LaunchScreen.storyboard */; };
 		7B45B9F71E7A735C00B78C1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B45B9F41E7A735C00B78C1C /* AppDelegate.m */; };
 		7B45B9F81E7A735C00B78C1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B45B9F61E7A735C00B78C1C /* ViewController.m */; };
+		7BBE31F01E8E52CC006EE84C /* LayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBE31EE1E8E52CC006EE84C /* LayerViewController.m */; };
+		7BBE31F11E8E52CC006EE84C /* LayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BBE31EF1E8E52CC006EE84C /* LayerViewController.xib */; };
+		7BBE31F31E8E57EC006EE84C /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BBE31F21E8E57EC006EE84C /* Icon-120.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B200A5D1E891FEC00C76F25 /* door.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = door.jpg; sourceTree = "<group>"; };
 		7B45B9D81E7A727200B78C1C /* coreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B45B9DC1E7A727200B78C1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7B45B9E51E7A727200B78C1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -26,6 +31,10 @@
 		7B45B9F41E7A735C00B78C1C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7B45B9F51E7A735C00B78C1C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7B45B9F61E7A735C00B78C1C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7BBE31ED1E8E52CC006EE84C /* LayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerViewController.h; sourceTree = "<group>"; };
+		7BBE31EE1E8E52CC006EE84C /* LayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerViewController.m; sourceTree = "<group>"; };
+		7BBE31EF1E8E52CC006EE84C /* LayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayerViewController.xib; sourceTree = "<group>"; };
+		7BBE31F21E8E57EC006EE84C /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +48,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B200A5C1E891FE700C76F25 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				7BBE31F21E8E57EC006EE84C /* Icon-120.png */,
+				7B200A5D1E891FEC00C76F25 /* door.jpg */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
 		7B45B9CF1E7A727200B78C1C = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +76,7 @@
 		7B45B9DA1E7A727200B78C1C /* coreAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				7B200A5C1E891FE700C76F25 /* resource */,
 				7B45B9F21E7A735C00B78C1C /* Classes */,
 				7B45B9E41E7A727200B78C1C /* Main.storyboard */,
 				7B45B9E71E7A727200B78C1C /* Assets.xcassets */,
@@ -79,12 +98,23 @@
 		7B45B9F21E7A735C00B78C1C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				7BBE31EC1E8E5293006EE84C /* 图层时间 */,
 				7B45B9F31E7A735C00B78C1C /* AppDelegate.h */,
 				7B45B9F41E7A735C00B78C1C /* AppDelegate.m */,
 				7B45B9F51E7A735C00B78C1C /* ViewController.h */,
 				7B45B9F61E7A735C00B78C1C /* ViewController.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		7BBE31EC1E8E5293006EE84C /* 图层时间 */ = {
+			isa = PBXGroup;
+			children = (
+				7BBE31ED1E8E52CC006EE84C /* LayerViewController.h */,
+				7BBE31EE1E8E52CC006EE84C /* LayerViewController.m */,
+				7BBE31EF1E8E52CC006EE84C /* LayerViewController.xib */,
+			);
+			path = "图层时间";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +176,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B45B9EB1E7A727200B78C1C /* LaunchScreen.storyboard in Resources */,
+				7BBE31F11E8E52CC006EE84C /* LayerViewController.xib in Resources */,
 				7B45B9E81E7A727200B78C1C /* Assets.xcassets in Resources */,
 				7B45B9E61E7A727200B78C1C /* Main.storyboard in Resources */,
+				7BBE31F31E8E57EC006EE84C /* Icon-120.png in Resources */,
+				7B200A5E1E891FEC00C76F25 /* door.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BBE31F01E8E52CC006EE84C /* LayerViewController.m in Sources */,
 				7B45B9F71E7A735C00B78C1C /* AppDelegate.m in Sources */,
 				7B45B9DD1E7A727200B78C1C /* main.m in Sources */,
 				7B45B9F81E7A735C00B78C1C /* ViewController.m in Sources */,
@@ -315,6 +349,7 @@
 				7B45B9F11E7A727200B78C1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
